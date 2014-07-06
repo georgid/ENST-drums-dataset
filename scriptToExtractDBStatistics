@@ -1,0 +1,8 @@
+
+# number of events in annotation. for test dir
+a=0; for i in `ls *.merged `; do b=`cat $i | wc -l`; a=$(($a+$b)) ; done
+
+# number of events in training (after combining them. e.g. excluding thesimultaneous bd_sd events)
+a=0; for i in `ls *.combined.bd `; do b=`cat $i | wc -l`; a=$(($a+$b)) ; done; echo $a
+
+

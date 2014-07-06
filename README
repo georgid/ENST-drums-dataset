@@ -1,0 +1,19 @@
+all prepared files are in dir 
+accompaniment_all_drummers_all_meters
+
+script how to prepare these two dirs are in accompaniment_all_drummers. 
+As well drum preparation is described in script /Users/joro/Documents/Linz/drumsbBarModel/BarModelMidiBarPositions/train/traindoit.m
+
+
+
+and dir
+accompaniment_all_drummers is the dir with 4/4/ meters only
+it is same as the one up, but manually only 4/4 meters are taken. no script
+
+
+Doing cross validation: 
+
+- copy all from accompaniment_all_drummers to train dir
+- cd to test dir
+- manually mv each piece (in table in report) from train to test dir :   
+ mv <name>* ../accompaniment_all_drummers_test_2fold/

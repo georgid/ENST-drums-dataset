@@ -1,0 +1,16 @@
+errors_in Snare Drum_Annotation_repaired
+
+issue: in original annotation Some snare drums are annotated but not heard in real recordings  
+
+So in dir accompaniment_all_drummers the .txt files are edited manually by me. 
+The wrong ts are thrown away. 
+
+Edited files: 
+
+drummer_3_134_minus-one_bossa_sticks
+drummer_2_115_minus-one_salsa_sticks _ TODO. only sent in email to olivier
+
+drummer_3_126_minus-one_salsa_sticks - TODO
+
+drummer_3_131_minus-one - many snare 1-second rolls are falsely annotated. not to be heard.  
+drummer_2_120_minus-one_funk_sticks - some snare 1-seond rolls ---||---
